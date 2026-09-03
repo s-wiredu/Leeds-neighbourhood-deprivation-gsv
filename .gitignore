@@ -1,0 +1,33 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Project data and generated outputs
+data/
+outputs*/
+gsv_images/
+segmentation_checkpoints/
+checkpoints/
+
+# Model artefacts and caches
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.ckpt
+.cache/
